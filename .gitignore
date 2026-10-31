@@ -1,0 +1,26 @@
+# ── Python ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── Runtime data (machine-specific) ──────────────────────────────────────
+config.json
+logs/
+*.log
+
+# ── Bundled/local tools ──────────────────────────────────────────────────
+# Each tool is its own project and is intentionally kept out of this repo.
+# Drop your tools into tools/ locally (see tools/README.md).
+tools/*
+!tools/README.md
+
+# ── OS / editors ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

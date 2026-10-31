@@ -1,0 +1,7 @@
+# Example tool manifest — copy into tools/<tool-folder>/tool.toml
+name = "My Tool"
+version = "1.0.0"
+entry = "main.py"
+icon = "resources/icon.ico"     # optional, relative to the tool folder
+category = "Utilities"          # optional, used for chip colour and filtering
+description = "One-line description of the tool."
